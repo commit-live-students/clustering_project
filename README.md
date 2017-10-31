@@ -17,4 +17,4 @@ Welcome to the clustering project. Clustering is the process of dividing a datas
 - Learn to implement the technique Hierarchical clustering which spots and establish Hierarchical relationship in your data.
 
 ### DataSet
-
+ We will be using the inbuilt Dataset of library `sklearn.datasets.load_digits()` which will consist of images of digits from 1 to 9.
