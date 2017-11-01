@@ -1,10 +1,11 @@
 # Hierarchial  clustering
 
-
+* Now you have seen how Kmeans do clustering, now lets check how Hierarchy Cluster works.
+* Data has been loaded.
+* Here you need to brush your matplotlib skills.
 
 ## Write a Function `hierarchy_clustering` that:
-- 
-- 
+- Will take Dataframe and return images of dendrogram of hierarchy complete, average, single and ward.
 
 ***
 
@@ -23,3 +24,5 @@
 None
 
 
+Image will look like this.
+https://github.com/commit-live-students/clustering_project/blob/master/images/Figure_1_h_clust.png
