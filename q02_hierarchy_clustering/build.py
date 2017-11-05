@@ -9,4 +9,25 @@ from sklearn import datasets
 digits = datasets.load_digits()
 df = pd.DataFrame(scale(digits.data), index=digits.target)
 
+def hierarchy_clustering(df):
+
+    # generate the linkage matrix
+    Z = linkage(df, 'average')
+
+    plt.figure(figsize=(25, 10))
+    plt.title('Hierarchical Clustering Dendrogram')
+    plt.xlabel('sample index')
+    plt.ylabel('distance')
+    dendrogram(
+        Z,
+        leaf_rotation=90.,  # rotates the x axis labels
+        leaf_font_size=8.,  # font size for the x axis labels
+    )
+    plt.show()
+
+
+
+    return
+
+#hierarchy_clustering(df)
 # Write your solution here :
