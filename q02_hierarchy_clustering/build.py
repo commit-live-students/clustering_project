@@ -10,3 +10,5 @@ digits = datasets.load_digits()
 df = pd.DataFrame(scale(digits.data), index=digits.target)
 
 # Write your solution here :
+def hierarchy_clustering(df):
+    pass
