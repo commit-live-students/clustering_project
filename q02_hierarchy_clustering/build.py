@@ -18,4 +18,3 @@ def hierarchy_clustering (df):
     plt.ylabel('distance')
     hierarchy.dendrogram(Z,leaf_rotation=90.,leaf_font_size=8.)
     plt.show()
-    
