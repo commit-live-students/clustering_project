@@ -1,3 +1,4 @@
+# %load q02_hierarchy_clustering/build.py
 # Default imports
 
 import pandas as pd
@@ -17,11 +18,14 @@ def hierarchy_clustering(df):
             [hierarchy.complete(df), hierarchy.average(df), hierarchy.single(df), hierarchy.ward(df)],
             ['c1', 'c2', 'c3', 'c4'],
             [ax1, ax2, ax3, ax4]):
-        cluster = hierarchy.dendrogram(linkage, labels=df.index, p=12, truncate_mode="lastp", orientation='top',
+        cluster = hierarchy.dendrogram(linkage, labels=df.index, p=12, truncate_mode='lastp', orientation='top',
                                        color_threshold=0, leaf_font_size=10, distance_sort=True, ax=ax)
     ax1.set_title('Complete Linkage')
     ax2.set_title('Average Linkage')
     ax3.set_title('Single Linkage')
     ax4.set_title('Ward')
     plt.show()
+
+
+
 
