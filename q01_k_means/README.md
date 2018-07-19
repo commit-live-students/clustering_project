@@ -1,7 +1,7 @@
 # K-Means clustering
 
 * We have learn how Clustering/Kmeans works. We are giving you digits image dataset from sklearn.
-* You need to apply Kmeans algorithm and cluster the same digits. Then plot the images in the X_train against thier clusters.
+* You need to apply Kmeans algorithm and cluster the same digits. Then plot the images in the X_train against their clusters.
 
 
 ## Write a Function `k_means` that:
