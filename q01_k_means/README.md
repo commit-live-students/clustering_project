@@ -27,7 +27,7 @@ None
 
 
 Images will be some what like below:
-https://github.com/commit-live-students/clustering_project/blob/master/images/Figure_0_clustering.png
+
 https://github.com/commit-live-students/clustering_project/blob/master/images/Figure_1_clustering.png
 https://github.com/commit-live-students/clustering_project/blob/master/images/Figure_2_clustering.png
 https://github.com/commit-live-students/clustering_project/blob/master/images/Figure_3_clustering.png
