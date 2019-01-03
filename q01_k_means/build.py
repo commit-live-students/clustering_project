@@ -14,7 +14,6 @@ def k_means(X_train, y_train, cluster=10, random_states=9):
     clusters = kmeans.fit_predict(digits.data)
     centers = kmeans.cluster_centers_.reshape(10, 8, 8)
     fig, ax = plt.subplots(1, 10, figsize=(8, 3))
-    centers = kmeans.cluster_centers_.reshape(10, 8, 8)
     for axi, center in zip(ax.flat, centers):
         axi.set(xticks=[], yticks=[])
         axi.imshow(center, interpolation='nearest', cmap='viridis')
